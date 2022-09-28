@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.5.2.202001241833" AlpVersion="8.5.1">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.8.0.202208091057" AlpVersion="8.7.5">
 <Model>
 	<Id>1662049283596</Id>
 	<Name><![CDATA[Model3]]></Name>
@@ -413,6 +413,7 @@
 					<Interpolation>LINEAR</Interpolation>
 					<DatasetExpression>  
 						<Title><![CDATA[susceptible]]></Title>
+					<Id>1664381053736</Id>
 					<Expression><![CDATA[my_dataset]]></Expression>
 					<Color>-8097537</Color>
 					<Expression2><![CDATA[susceptible]]></Expression2>
@@ -422,6 +423,7 @@
 					</DatasetExpression>
 					<DatasetExpression>  
 						<Title><![CDATA[infected]]></Title>
+					<Id>1664381053737</Id>
 					<Expression><![CDATA[my_dataset1]]></Expression>
 					<Color>-65281</Color>
 					<Expression2><![CDATA[infected]]></Expression2>
@@ -431,6 +433,7 @@
 					</DatasetExpression>
 					<DatasetExpression>  
 						<Title><![CDATA[recovered]]></Title>
+					<Id>1664381053738</Id>
 					<Expression><![CDATA[my_dataset2]]></Expression>
 					<Color>-29696</Color>
 					<Expression2><![CDATA[recovered]]></Expression2>
@@ -512,7 +515,7 @@
 
 			<Presentation>
 				<Text>
-					<Id>0</Id>
+					<Id>1664381053747</Id>
 					<Name><![CDATA[text]]></Name>
 					<X>50</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
@@ -557,7 +560,14 @@
 				<FinalDate><![CDATA[1664582400000]]></FinalDate>	
 				<FinalTime><![CDATA[100.0]]></FinalTime>	
 			</ModelTimeProperties>
+			<BypassInitialScreen>false</BypassInitialScreen>
 		</SimulationExperiment>	
 	</Experiments>
+    <RequiredLibraryReference>
+		<LibraryName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></LibraryName>
+		<VersionMajor>1</VersionMajor>
+		<VersionMinor>0</VersionMinor>
+		<VersionBuild>0</VersionBuild>
+    </RequiredLibraryReference>
 </Model>
 </AnyLogicWorkspace>
