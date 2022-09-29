@@ -1406,6 +1406,9 @@
 						<Type><![CDATA[double]]></Type>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[0.07]]></Code>
+						</DefaultValue>
 						<ParameterEditor>
 							<Id>1662051188284</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
@@ -2514,7 +2517,7 @@
 	</RunConfiguration>
 	<Experiments>	
 		<!--   =========   Simulation Experiment   ========  -->
-		<SimulationExperiment ActiveObjectClassId="1662050057105">
+		<SimulationExperiment ActiveObjectClassId="1664380137259">
 			<Id>1662050057107</Id>
 			<Name><![CDATA[Simulation]]></Name>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
@@ -2552,24 +2555,6 @@
 			</Presentation>
 
 			<Parameters>			
-				<Parameter>
-					<ParameterName><![CDATA[imigrationNormal]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[birthRate]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[populationInitial]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[emigrationNormal]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[averageLifetime]]></ParameterName>
-				</Parameter>
-				<Parameter>
-					<ParameterName><![CDATA[householdSize]]></ParameterName>
-				</Parameter>
 			</Parameters>			
 			<PresentationProperties>
 				<EnableZoomAndPanning>true</EnableZoomAndPanning>
@@ -2604,12 +2589,6 @@
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></LibraryName>
 		<VersionMajor>1</VersionMajor>
-		<VersionMinor>0</VersionMinor>
-		<VersionBuild>0</VersionBuild>
-    </RequiredLibraryReference>
-    <RequiredLibraryReference>
-		<LibraryName><![CDATA[_4]]></LibraryName>
-		<VersionMajor>0</VersionMajor>
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>0</VersionBuild>
     </RequiredLibraryReference>
